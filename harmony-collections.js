@@ -65,7 +65,7 @@ void function(string_, object_, function_, prototype_, toString_,
 
         if (descs)
           for (var key in descs)
-            defineProperty(object, key, descs[k]);
+            defineProperty(object, key, descs[key]);
 
         return object;
       };
